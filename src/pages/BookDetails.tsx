@@ -51,7 +51,7 @@ export default function BookDetails() {
                 <div style={{ marginBottom: '20px', fontSize: '0.9rem', color: '#888' }}>
                     Tahun : <strong>{book.tahun}</strong> |
                     Kategori : <strong>{book.kategori}</strong> |
-                    Status : <strong>{book.tahun}</strong> |
+                    Status : <strong>{book.status}</strong> |
                     Peminjam : <strong>{book.peminjam || "Tidak ada Peminjam"}</strong> |
                     Image : <strong>{book.imageURL}</strong> |
                 </div>
